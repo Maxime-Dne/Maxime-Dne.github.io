@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maxime Donne – Étudiant en informatique, systèmes et réseaux</title>
+  <meta name="description" content="Portfolio de Maxime Donne, étudiant en 1re année de BTS SIO option SISR (systèmes et réseaux). Recherche de stage de 4 à 5 semaines entre mai et août 2027.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     MODE D'EMPLOI
+     - Tout ce qui est surligné en jaune (class="todo") est à remplacer
+       par TON texte. Une fois rempli, supprime aussi le class="todo".
+     - Photo : mets ta photo dans le dossier images/ sous le nom photo.jpg
+     - CV : mets ton CV dans le dossier images/ sous le nom cv.pdf
+     ============================================================ -->
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav">
+  <div class="container">
+    <a class="logo" href="#accueil">Maxime Donne</a>
+    <button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('ouvert')">☰</button>
+    <ul id="menu">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#realisations">Réalisations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== 1. ACCUEIL ===== -->
+<header class="hero" id="accueil">
+  <div class="container">
+    <img class="photo" src="images/photo.jpg" alt="Photo de Maxime Donne">
+    <div>
+      <h1>Maxime Donne</h1>
+      <p class="title">Étudiant en informatique, systèmes et réseaux</p>
+      <p class="subtitle">1re année BTS SIO option SISR – CNED</p>
+      <a class="btn" href="images/cv.pdf" target="_blank">Voir mon CV (PDF)</a>
+      <a class="btn ghost" href="#contact">Me contacter</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 2. PROFIL ===== -->
+<section id="profil" class="alt">
+  <div class="container">
+    <h2>Profil</h2>
+    <div class="profil">
+      <div>
+        <p>Je m'appelle Maxime Donne et je suis étudiant en 1re année de BTS SIO option SISR au CNED. Après un Bac Pro CIEL au lycée La Providence à Saint-Malo, je me suis tourné vers ce BTS pour continuer dans l'informatique.</p>
+        <p>Pendant mes stages, j'ai pu découvrir le support aux utilisateurs, la maintenance et l'administration de systèmes, dans une grande entreprise comme dans une collectivité.</p>
+        <p>Ce qui m'intéresse le plus, ce sont les réseaux et la cybersécurité. Pour le moment, c'est le métier d'administrateur systèmes et réseaux qui m'attire le plus. Je cherche à acquérir un maximum de compétences dans ces domaines afin de devenir autonome et compétent.</p>
+      </div>
+      <div class="encadre">
+        <strong>Recherche de stage</strong>
+        Je recherche un stage en systèmes et réseaux (BTS SIO option SISR) de 4 à 5 semaines, à réaliser entre mai et août 2027.<br>Permis B, véhiculé.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. PARCOURS ===== -->
+<section id="parcours">
+  <div class="container">
+    <h2>Parcours de formation</h2>
+    <p class="section-intro">Du plus récent au plus ancien.</p>
+    <ul class="timeline">
+      <li>
+        <span class="date">2026 – 2028 (en cours)</span>
+        <h3>BTS SIO – Services Informatiques aux Organisations, option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</h3>
+        <p class="lieu">CNED – Centre National d'Enseignement à Distance (formation à distance)</p>
+        <ul>
+          <li>Support et mise à disposition de services informatiques : gestion de parc, assistance aux utilisateurs, déploiement de services</li>
+          <li>Administration des systèmes et des réseaux (option SISR) : conception, installation et dépannage d'infrastructures</li>
+          <li>Cybersécurité des services informatiques : protection des données, sécurisation des postes et des serveurs</li>
+          <li>Enseignements généraux : culture générale, anglais, mathématiques pour l'informatique, culture économique, juridique et managériale</li>
+        </ul>
+      </li>
+      <li>
+        <span class="date">2023 – 2026</span>
+        <h3>Bac Pro CIEL – Cybersécurité, Informatique et réseaux, Électronique</h3>
+        <p class="lieu">Lycée La Providence – Saint-Malo (35)</p>
+        <ul>
+          <li>Installation, configuration et maintenance de réseaux informatiques</li>
+          <li>Cybersécurité : protection des systèmes et des données</li>
+          <li>Électronique : mesures, cartes et systèmes communicants</li>
+          <li>Programmation et intervention chez le client</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 class="sous-titre">Certifications et badges</h2>
+    <ul class="timeline">
+      <li>
+        <span class="date">Mars 2026</span>
+        <h3>Badge « Challenge CTF – Passe ton Hack d'Abord – Explorateur cybersécurité »</h3>
+        <p class="lieu">Ministère de l'Éducation nationale (DGESCO), en partenariat avec le Commandement de la cyberdéfense (COMCYBER, ministère des Armées)</p>
+        <p>Participation en équipe au challenge national CTF (Capture The Flag) de cybersécurité.
+          <a href="https://openbadgefactory.com/obv3/credentials/9608aad5c89a9cf4f27ccd1b70dfc8762d0f819a" target="_blank">Voir le badge en ligne</a> ·
+          <a href="images/badge-ctf.pdf" target="_blank">PDF</a></p>
+      </li>
+    </ul>
+
+    <h2 class="sous-titre">Expériences en entreprise</h2>
+    <ul class="timeline">
+      <li>
+        <span class="date">Avril 2025 · Janvier à mars 2026</span>
+        <h3>Stagiaire informaticien au service support</h3>
+        <p class="lieu">PROVECTIO</p>
+        <ul>
+          <li>Support informatique et traitement de tickets utilisateurs</li>
+          <li>Maintenance et configuration de postes et réseaux</li>
+          <li>Gestion des sauvegardes avec Veeam Backup &amp; Replication</li>
+          <li>Utilisation des outils d'administration Microsoft pour la gestion des environnements clients (GDAP)</li>
+        </ul>
+      </li>
+      <li>
+        <span class="date">Juillet 2024 (1 mois)</span>
+        <h3>Stagiaire au support aux utilisateurs</h3>
+        <p class="lieu">Banque Populaire Grand Ouest (BPGO)</p>
+        <ul>
+          <li>Découverte du département informatique à l'échelle d'une grande entreprise</li>
+          <li>Dépannage informatique</li>
+          <li>Assistance aux utilisateurs</li>
+        </ul>
+      </li>
+      <li>
+        <span class="date">Mai – juin 2024</span>
+        <h3>Stagiaire en cybersécurité</h3>
+        <p class="lieu">Société Holann – Mairie de Saint-Grégoire (35)</p>
+        <ul>
+          <li>Administration de systèmes informatiques</li>
+          <li>Hypervision d'infrastructures réseaux</li>
+          <li>Virtualisation de divers services</li>
+          <li>Assistance technique aux administrés</li>
+        </ul>
+      </li>
+      <li>
+        <span class="date">Avril – mai 2023</span>
+        <h3>Stagiaire informaticien</h3>
+        <p class="lieu">ENVIE 35 – Saint-Grégoire (35)</p>
+        <ul>
+          <li>Maintenance et réparation d'appareils électroniques et de petit électroménager</li>
+          <li>Intervention auprès d'entreprises locales pour récupérer du matériel informatique, remise en état en atelier, fiches FAP et préparation de sa revalorisation</li>
+          <li>Coordination du service livraison, organisation et rangement de l'entrepôt</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== 4. COMPÉTENCES TECHNIQUES ===== -->
+<section id="competences" class="alt">
+  <div class="container">
+    <h2>Compétences techniques</h2>
+    <p class="section-intro">Compétences travaillées pendant la 1re année de BTS SIO SISR.</p>
+    <div class="competences">
+      <div class="cat">
+        <h3>Systèmes</h3>
+        <ul>
+          <li><i class="devicon-windows11-original colored"></i> Windows 10/11</li>
+          <li><i class="devicon-windows11-original"></i> Windows Server, Active Directory, GPO</li>
+          <li><i class="devicon-debian-plain colored"></i> Linux Debian</li>
+          <li><i class="devicon-ubuntu-plain colored"></i> Linux Ubuntu</li>
+          <li><span class="ico">💽</span> RAID, LVM, partitionnement</li>
+        </ul>
+      </div>
+      <div class="cat">
+        <h3>Réseaux</h3>
+        <ul>
+          <li><span class="ico">🌐</span> TCP/IP, adressage IPv4 et IPv6, sous-réseaux</li>
+          <li><span class="ico">🔀</span> Commutation, VLAN (Cisco)</li>
+          <li><span class="ico">🧭</span> Routage statique, VyOS</li>
+          <li><span class="ico">⚙️</span> DHCP, DNS</li>
+          <li><span class="ico">📶</span> Wi-Fi, câblage</li>
+        </ul>
+      </div>
+      <div class="cat">
+        <h3>Virtualisation et outils</h3>
+        <ul>
+          <li><i class="devicon-virtualbox-original colored"></i> VirtualBox</li>
+          <li><span class="ico">🗂️</span> GLPI, OCS Inventory (gestion de parc)</li>
+          <li><span class="ico">💾</span> Sauvegardes (Veeam Backup &amp; Replication), clonage de postes</li>
+          <li><span class="ico">🖥️</span> Hypervision, virtualisation de services</li>
+          <li><span class="ico">🎫</span> Support utilisateurs, gestion de tickets</li>
+          <li><span class="ico">☁️</span> Administration Microsoft (GDAP)</li>
+          <li><i class="devicon-git-plain colored"></i> Git</li>
+          <li><i class="devicon-github-original"></i> GitHub</li>
+        </ul>
+      </div>
+      <div class="cat">
+        <h3>Scripts</h3>
+        <ul>
+          <li><i class="devicon-powershell-plain colored"></i> PowerShell</li>
+          <li><i class="devicon-bash-plain"></i> Bash (scripts shell, cron)</li>
+          <li><i class="devicon-python-plain colored"></i> Python (bases)</li>
+        </ul>
+      </div>
+      <div class="cat">
+        <h3>Cybersécurité</h3>
+        <ul>
+          <li><span class="ico">🔐</span> Chiffrement, certificats, TLS</li>
+          <li><span class="ico">🛡️</span> Pare-feu, VPN, droits NTFS et Linux</li>
+          <li><span class="ico">🔎</span> nmap, Wireshark</li>
+          <li><span class="ico">⚖️</span> RGPD, protection des données</li>
+        </ul>
+      </div>
+      <div class="cat">
+        <h3>Web et développement</h3>
+        <ul>
+          <li><i class="devicon-html5-plain colored"></i> HTML</li>
+          <li><i class="devicon-css3-plain colored"></i> CSS</li>
+          <li><i class="devicon-php-plain colored"></i> PHP</li>
+          <li><i class="devicon-mysql-original colored"></i> SQL / MySQL</li>
+          <li><i class="devicon-csharp-plain colored"></i> C# (bases)</li>
+        </ul>
+      </div>
+      <div class="cat">
+        <h3>Langues</h3>
+        <ul>
+          <li><span class="ico">🇬🇧</span> <span>Anglais – B1</span></li>
+          <li><span class="ico">🇪🇸</span> <span>Espagnol – A2</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. RÉALISATIONS PROFESSIONNELLES ===== -->
+<section id="realisations">
+  <div class="container">
+    <h2>Réalisations professionnelles</h2>
+    <p class="section-intro">Cliquez sur une réalisation pour voir le détail et les compétences du bloc 1 mobilisées.</p>
+
+    <div class="filtres">
+      <button class="actif" data-filtre="tout">Toutes</button>
+      <button data-filtre="pro">Professionnelles</button>
+      <button data-filtre="scolaire">Scolaires</button>
+    </div>
+
+    <div class="vignettes">
+      <!-- Vignette : stage BTS (à venir) -->
+      <a class="vignette" data-type="pro" href="realisations/stage-1.html">
+        <div class="mini">Capture à ajouter</div>
+        <div class="corps">
+          <div class="meta"><span class="badge avenir">À venir</span><span>Juin 2027</span></div>
+          <h3>Stage de 1re année</h3>
+          <p>Stage en systèmes et réseaux de 4 à 5 semaines.</p>
+          <div class="tags"><span>À compléter</span></div>
+        </div>
+      </a>
+
+      <!-- Vignette : Atelier 2 (à venir) -->
+      <a class="vignette" data-type="pro" href="realisations/atelier-2.html">
+        <div class="mini">Capture à ajouter</div>
+        <div class="corps">
+          <div class="meta"><span class="badge avenir">En cours</span><span>2026 – 2027</span></div>
+          <h3>Atelier 2 – Missions pour MediaTek86</h3>
+          <p>Missions pour un client fictif (réseau de médiathèques) : clé USB de dépannage, prototype réseau, sauvegardes, clonage de postes.</p>
+          <div class="tags"><span>Multiboot</span><span>Réseau</span><span>Sauvegarde</span><span>Clonage</span></div>
+        </div>
+      </a>
+
+      <!-- Vignette : projet scolaire -->
+      <a class="vignette" data-type="scolaire" href="realisations/ctf-passe-ton-hack.html">
+        <div class="mini">Capture à ajouter</div>
+        <div class="corps">
+          <div class="meta"><span class="badge">Scolaire</span><span>Mars 2026</span></div>
+          <h3>Challenge CTF « Passe ton Hack d'Abord »</h3>
+          <p>Challenge en équipe de 4 avec des défis en réseaux, cybersécurité, administration, programmation et reverse engineering.</p>
+          <div class="tags"><span>Cybersécurité</span><span>CTF</span><span>Travail en équipe</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. CONTACT ===== -->
+<section id="contact" class="alt">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="contact">
+      <ul class="coord">
+        <li><span class="ico">📍</span> Rennes (35)</li>
+        <li><span class="ico">📱</span> <a href="tel:+33785201378">07 85 20 13 78</a></li>
+        <li><span class="ico">✉️</span> <a href="mailto:m.donne35@gmail.com">m.donne35@gmail.com</a></li>
+        <li><i class="devicon-linkedin-plain colored" style="width:24px;text-align:center"></i> <a href="https://www.linkedin.com/in/maxime-donne-2895542b2/" target="_blank">linkedin.com/in/maxime-donne</a></li>
+        <li><i class="devicon-github-original" style="width:24px;text-align:center"></i> <a href="https://github.com/Maxime-Dne" target="_blank">github.com/Maxime-Dne</a></li>
+      </ul>
+
+      <!-- Formulaire : remplace TON-ID-FORMSPREE par l'identifiant donné par formspree.io -->
+      <form action="https://formspree.io/f/TON-ID-FORMSPREE" method="POST">
+        <div>
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" required>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>© 2026 Maxime Donne</span>
+    <span>BTS SIO option SISR – CNED</span>
+  </div>
+</footer>
+
+<script>
+  // Filtre des réalisations
+  document.querySelectorAll('.filtres button').forEach(function (bouton) {
+    bouton.addEventListener('click', function () {
+      document.querySelectorAll('.filtres button').forEach(function (b) { b.classList.remove('actif'); });
+      bouton.classList.add('actif');
+      var f = bouton.dataset.filtre;
+      document.querySelectorAll('.vignette').forEach(function (v) {
+        v.style.display = (f === 'tout' || v.dataset.type === f) ? '' : 'none';
+      });
+    });
+  });
+  // Ferme le menu mobile après un clic
+  document.querySelectorAll('#menu a').forEach(function (a) {
+    a.addEventListener('click', function () { document.getElementById('menu').classList.remove('ouvert'); });
+  });
+</script>
+</body>
+</html>

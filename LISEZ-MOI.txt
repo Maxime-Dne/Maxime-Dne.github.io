@@ -1,0 +1,40 @@
+PORTFOLIO – MODE D'EMPLOI
+=========================
+
+Contenu du dossier
+------------------
+index.html                     la page principale (accueil, profil, parcours, compétences, réalisations, contact)
+style.css                      la mise en page (pas besoin d'y toucher)
+realisations/                  une page de détail par réalisation (stage, atelier 2, projet scolaire)
+images/photo.jpg               ta photo (remplace le fichier par la tienne, même nom)
+images/cv.pdf                  ton CV (à ajouter, même nom) → fait au travail 3
+
+1. Remplir le contenu (avec Bloc-notes ou VS Code)
+----------------------------------------------------
+- Ouvre index.html, cherche « todo » (Ctrl+F).
+- Chaque zone jaune = un texte à écrire TOI-MÊME (règle CNED : l'IA peut faire le site, pas les textes).
+- Remplace le texte entre crochets, puis supprime class="todo" pour enlever le surlignage jaune.
+- Dans les pages realisations/ : pour cocher une compétence du bloc 1, enlève class="non" sur sa ligne.
+- Pour voir le résultat : double-clic sur index.html (s'ouvre dans le navigateur).
+
+2. Mettre en ligne (GitHub Pages, gratuit)
+-------------------------------------------
+a) Crée un compte sur github.com (fait : Maxime-Dne).
+b) Bouton « New repository » → nom EXACT : Maxime-Dne.github.io → Public → Create.
+c) « uploading an existing file » → glisse TOUT le contenu du dossier (index.html, style.css,
+   les dossiers images et realisations) → Commit changes.
+d) Settings → Pages → Source : « Deploy from a branch » → Branch : main / (root) → Save.
+e) 1 à 2 minutes après, ton site est en ligne à : https://Maxime-Dne.github.io
+
+Pour modifier plus tard : ouvre le fichier sur GitHub → crayon (Edit) → Commit changes.
+
+3. Formulaire de contact (Formspree, gratuit)
+----------------------------------------------
+a) Crée un compte sur formspree.io → « New form ».
+b) Copie l'adresse donnée (du type https://formspree.io/f/abcdwxyz).
+c) Dans index.html, remplace https://formspree.io/f/TON-ID-FORMSPREE par cette adresse.
+d) Teste : envoie-toi un message depuis ton site en ligne.
+
+4. Pour l'Atelier 1 (travail 2)
+-------------------------------
+travail2.pdf = un document avec le lien vers ton portfolio en ligne.
